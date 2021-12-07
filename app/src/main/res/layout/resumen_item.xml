@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/fecha_tabla"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5sp"
+        android:paddingBottom="5sp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TableRow
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Tipo"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tipo_comida_tabla"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_weight="1"
+                android:text="" />
+
+        </TableRow>
+        <TableRow android:padding="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="15sp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:text="Comida Principal" />
+            <TextView
+                android:id="@+id/comida_principal_tabla"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:text="" />
+
+        </TableRow>
+        <TableRow android:padding="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:text="Comida Secundaria" />
+            <TextView
+                android:id="@+id/comida_secundaria_tabla"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:text="" />
+        </TableRow>
+        <TableRow android:padding="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:text="Bebida" />
+            <TextView
+                android:id="@+id/bebida_tabla"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:text="" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/row_ingirio_postre"
+            android:padding="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:text="Consumio Postre?" />
+            <TextView
+                android:id="@+id/ingirio_postre_tabla"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:text="" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/row_postre"
+            android:padding="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Postre consumido" />
+            <TextView
+                android:id="@+id/postre_tabla"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:text="" />
+        </TableRow>
+        <TableRow android:padding="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Tuvo tentación?" />
+            <TextView
+                android:id="@+id/tentacion_pregunta_tabla"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:text="" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/row_tentacion"
+            android:padding="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Tentación" />
+            <TextView
+                android:id="@+id/tentacion_tabla"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:text="" />
+        </TableRow>
+        <TableRow android:padding="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:text="Continuó con hambre?" />
+            <TextView
+                android:id="@+id/hambre_pregunta_tabla"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:text="" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

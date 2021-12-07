@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5sp"
+        android:text="Por favor seleccione el tipo:"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/spinner_comi"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <EditText
+        android:id="@+id/insert_comida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="¿Cual fue su comida principal?"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/insert_secundaria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="¿Cual fue su comida secundaria?"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/bebida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="¿Que tomo?"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/pregunta_postre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5sp"
+        android:text="Ingirio postre?"
+        android:textSize="16sp" />
+
+
+    <Spinner
+        android:id="@+id/spinner_pos"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <EditText
+        android:id="@+id/insert_postre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Postre"
+        android:inputType="textPersonName"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/pregunta_tentacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5sp"
+        android:text="¿Tuvo tentación de comer más?"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/spinner_tent"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <EditText
+        android:id="@+id/insert_tentacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alimento que quería ingerir?"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/pregunta_hambre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5sp"
+        android:text="¿Siente que se quedó con hambre?"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/spinner_hambre"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="30sp" />
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/guardarComida"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+
+            android:layout_marginLeft="10dp"
+            android:text="guardar"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_volver_comida"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:text="Volver"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
